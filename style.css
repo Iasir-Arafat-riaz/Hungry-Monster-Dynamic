@@ -1,35 +1,4 @@
 
-  .search-meal {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-  }
-  #meal-list {
-    width: 100%;
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
-  .meal-card {
-    cursor: pointer;
-    color: white;
-    background-color: #66645d;
-    margin-left: 15px;
-    border-radius: 10px;
-    width: 90%;
-  }
-  .meal-card img {
-    border-radius: 10px;
-    width: 100%;
-  }
-  .meal-ingredients {
-    background-color: #00ace077;
-    padding: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 20px;
-  }
   .meal-ingredients h2 {
     margin-top: 15px;
     font-size: 35px;
@@ -51,5 +20,37 @@
     border-radius: 40px;
     width: 1000px;
     text-align: center;
+  }
+  
+  .search-meal {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  #meal-list {
+    width: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .meal-card {
+    cursor: pointer;
+    color: white;
+    background-color: #1b1b1b;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 90%;
+  }
+  .meal-card img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .meal-ingredients {
+    background-color: #c2c5c577;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
   }
   
