@@ -30,6 +30,7 @@ const mealInput = () => {
             mealError.innerHTML = mealErrorString;
         });
 };
+
 // Meals Input
 
 
